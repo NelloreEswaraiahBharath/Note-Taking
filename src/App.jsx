@@ -8,14 +8,14 @@ import EditNotes from "./Components/EditNotes";
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Heading />} />
-        <Route path="/notes/create" element={<AddNotes />} />
-        <Route path="/notes/delete/:id" element={<DeleteNotes />} />
-        <Route path="/notes/edit/:id" element={<EditNotes />} />
-      </Routes>
-    </Router>
+    // <Router>
+    <Routes>
+      <Route path="/" element={<Heading />} />
+      <Route path="/notes/create" element={<AddNotes />} />
+      <Route path="/notes/delete/:id" element={<DeleteNotes />} />
+      <Route path="/notes/edit/:id" element={<EditNotes />} />
+    </Routes>
+    // </Router>
   );
 };
 

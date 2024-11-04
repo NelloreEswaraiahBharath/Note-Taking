@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import Spinner from "../Components/Spinner.jsx";
+import Spinner from "./Spinner.jsx";
 import { Link } from "react-router-dom";
 import { IoChevronBackCircle } from "react-icons/io5";
 
